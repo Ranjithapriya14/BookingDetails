@@ -1,0 +1,16 @@
+<web-app xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns="https://java.sun.com/xml/ns/javaee" xsi:schemaLocation="https://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+<display-name>spring-mvc-first-example</display-name>
+<!--  Add Spring MVC DispatcherServlet as front controller  -->
+<servlet>
+<servlet-name>dispatcher</servlet-name>
+<servlet-class> org.springframework.web.servlet.DispatcherServlet </servlet-class>
+<init-param>
+<param-name>contextConfigLocation</param-name>
+<param-value>/WEB-INF/multi.xml</param-value>
+</init-param>
+</servlet>
+<servlet-mapping>
+<servlet-name>dispatcher</servlet-name>
+<url-pattern>/</url-pattern>
+</servlet-mapping>
+</web-app>
