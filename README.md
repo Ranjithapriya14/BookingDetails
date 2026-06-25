@@ -1,4 +1,4 @@
-# 📘 User Booking Management System
+# 📘 Online Ticket Booking Management System | Full-Stack Java Web Application
 
 A simple **Spring MVC + Hibernate JPA + MySQL** web application for managing user booking details.
 The application supports **Create, View, Edit, Delete**, and **List** operations for user game bookings.
